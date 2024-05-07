@@ -10,5 +10,5 @@
 Commands to initial setup
 
 - npm create vite@latest
-- yarn add tailwincss autoprefixer postcss
+- yarn add tailwinecss autoprefixer postcss
 - npx tailwindcss init -p
