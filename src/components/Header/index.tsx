@@ -29,7 +29,7 @@ const Header = () => {
               Contact
             </a>
           </div>
-
+          <img src={bag} alt="cart" className=" color-white cursor-pointer w-[25px]" />
         </nav>
 
     </div>
