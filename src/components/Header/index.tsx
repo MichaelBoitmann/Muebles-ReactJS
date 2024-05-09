@@ -40,9 +40,8 @@ const Header = () => {
             Turn your room with Muebles into a lot more minimalist and modern with ease and speed.
           </p>
         </div>
-  
+        <div className="w-full h-[80px] bg-gradient-to-t from-white to-transparent abolute bottom-0 left-0"></div>
       </div>
-      <div className="w-full h-[80px] bg-gradient-to-t from-white to-transparent abolute bottom-0 left-0"></div>
     </div>
   );
 };
