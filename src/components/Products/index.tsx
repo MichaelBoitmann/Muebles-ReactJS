@@ -7,11 +7,11 @@ import chair5 from "../../assets/images/chair5.jpg";
 const Products = () => {
 
   const chairs = [
-    { title: "Selena Dining Chair", price: "284", image: chair1 },
-    { title: "Brandon Dining Chair", price: "329", image: chair2 },
-    { title: "Andes Dining Chair", price: "273", image: chair3 },
-    { title: "Larson Dining Chair", price: "227", image: chair4 },
-    { title: "Zayne Dining Chair", price: "358", image: chair5 },
+    { title: "Selena Chair", price: "284", image: chair1 },
+    { title: "Brandon Chair", price: "329", image: chair2 },
+    { title: "Andes Chair", price: "273", image: chair3 },
+    { title: "Larson Chair", price: "227", image: chair4 },
+    { title: "Zayne Chair", price: "358", image: chair5 },
   ]
 
   return (
@@ -22,6 +22,13 @@ const Products = () => {
           <div key={chair.title} className="bg-white w-full rounded-[20px] flex flex-col items-center justify-center">
             <div className="grid place-items-center w-full bg-[@fafafa]">
               <img src={chair.image} alt={chair.title} />
+            </div>
+            <div className="w-full px-[20px] pb-[27px] pt-4 flex flex-col">
+              <span className="text-[#8d8d8d]">Chair</span>
+              <span className="font-semibold text-[#0d1b39] text-[17px] my-[5px]">
+                {chair.title}
+              </span>
+              <img src={stars} alt="Product-Rate" className="w-[40%]" />
             </div>
           </div>
         ))}
