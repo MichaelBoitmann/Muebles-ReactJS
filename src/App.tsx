@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Why from "./components/Why"''
+import Why from "./components/Why";
 
 const App = () => {
   return (
