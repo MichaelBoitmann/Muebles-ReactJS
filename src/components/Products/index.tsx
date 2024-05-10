@@ -4,6 +4,9 @@ import chair3 from "../../assets/images/chair3.jpg";
 import chair4 from "../../assets/images/chair4.jpg";
 import chair5 from "../../assets/images/chair5.jpg";
 import rating from "../../assets/images/five-stars.png";
+
+import arrow from "../../assets/images/arrow1.png";
+
 const Products = () => {
 
   const chairs = [
@@ -29,11 +32,11 @@ const Products = () => {
                 {chair.title}
               </span>
               <img src={rating} alt="Product-Rate" className="w-[30%]" />
-              <div className="flex-w-full items-center justify-between mt-7">
+              <div className="w-full flex items-center justify-between mt-7">
                 <span className="font-semibold text-[22px] text-[#0d1b39]">
                   $ {chair.price}
                 </span>
-                <div className="rounded-full grid place-items-center bg-[#0d1b39 x-[48px] h-[48px] cursor-pointer">
+                <div className="rounded-full grid place-items-center bg-[#0d1b39] w-[48px] h-[48px] cursor-pointer">
                   <span className="text-white mt-[-1px] text-[35px]">+</span>
                 </div>
               </div>
@@ -41,7 +44,12 @@ const Products = () => {
           </div>
         ))}
       </div>
-  
+      <div className="w-full flex items-center justify-center gap-3 mt-14">
+        <a href="#" className="font-medium text-[18px] text-[#e58411]">
+          View All
+        </a>
+        <img src={arrow} alt="arrow" />
+      </div>
     </div>
   )
 }

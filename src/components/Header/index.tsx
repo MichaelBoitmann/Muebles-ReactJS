@@ -1,10 +1,11 @@
-import bg from "../../assets/images/bg.png";
+import bg from "../../assets/images/sofa3.png";
 import bag from "../../assets/images/bag.png";
 
 const Header = () => {
   return (
     <div>
-      <div className="w-full md:h-[105vh] h-screen bg-cover relative bg-center md:px-[80px] px-8 py-[40px]" style={{backgroundImage:`url(${bg})`}}>
+      <div className="w-full md:h-[105vh] h-screen bg-cover relative bg-center md:px-[80px] px-8 py-[40px]" 
+           style={{backgroundImage:`url(${bg})`}}>
         <div className="w-full flex items-center justify-between">
           <span className="text-white font-bold text-[28px] cursor-pointer">Muebles</span>
           <div className="hidden md:flex items-center gap-[62px]">
@@ -42,6 +43,7 @@ const Header = () => {
         </div>
         <div className="w-full h-[80px] bg-gradient-to-t from-white to-transparent abolute bottom-0 left-0"></div>
       </div>
+      
     </div>
   );
 };

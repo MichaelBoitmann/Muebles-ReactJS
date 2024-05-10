@@ -1,4 +1,4 @@
-import arrow from "../../assets/images/arrow.png";
+import arrow from "../../assets/images/arrow1.png";
 
 const Why = () => {
   const whyItems=[
@@ -30,10 +30,10 @@ const Why = () => {
             <span className="font-bold text-[#1e1e1e} text-[24px]">{item.title}</span>
             <p className="mt-5 font-[300] text-[#1e1e1e] max-w-[300px]">{item.description}</p>
             <div className="flex items-center gap-4 mt-4 cursor-pointer">
-              <a href="#" className="font-medium text-[14px] text-[#35E644]">
+              <a href="#" className="font-medium text-[14px] text-[#e58411]">
                 More Info
               </a>
-              <img src={arrow} alt="arrow" className="text-[35E644]" />
+              <img src={arrow} alt="arrow" className="text-[#e58411]" />
             </div>
           </div>))}
       </div>
