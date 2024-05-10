@@ -3,6 +3,7 @@ import Why from "./components/Why";
 import Products from "./components/Products";
 import Experiences from "./components/Experiences";
 import Materials from "./components/Materials";
+import Reviews from "./components/Reviews";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Products />
       <Experiences />
       <Materials />
+      <Reviews />
     </div>
   )
 }
