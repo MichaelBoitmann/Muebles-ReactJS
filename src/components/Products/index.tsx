@@ -3,7 +3,7 @@ import chair2 from "../../assets/images/chair2.jpg";
 import chair3 from "../../assets/images/chair3.jpg";
 import chair4 from "../../assets/images/chair4.jpg";
 import chair5 from "../../assets/images/chair5.jpg";
-
+import rating from "../../assets/images/five-stars.png";
 const Products = () => {
 
   const chairs = [
@@ -28,7 +28,15 @@ const Products = () => {
               <span className="font-semibold text-[#0d1b39] text-[17px] my-[5px]">
                 {chair.title}
               </span>
-              <img src={stars} alt="Product-Rate" className="w-[40%]" />
+              <img src={rating} alt="Product-Rate" className="w-[30%]" />
+              <div className="flex-w-full items-center justify-between mt-7">
+                <span className="font-semibold text-[22px] text-[#0d1b39]">
+                  $ {chair.price}
+                </span>
+                <div className="rounded-full grid place-items-center bg-[#0d1b39 x-[48px] h-[48px] cursor-pointer">
+                  <span className="text-white mt-[-1px] text-[35px]">+</span>
+                </div>
+              </div>
             </div>
           </div>
         ))}
