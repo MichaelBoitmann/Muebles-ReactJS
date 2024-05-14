@@ -1,12 +1,13 @@
-import review1 from "../../assets/images/review1.png";
-import review2 from "../../assets/images/review2.png";
-import review3 from "../../assets/images/review3.png";
+import review1 from "../../assets/images/review4.jpg";
+import review2 from "../../assets/images/review2.jpg";
+import review3 from "../../assets/images/review3.jpg";
 // import review4 from "../../assets/images/review4.png";
 // import review5 from "../../assets/images/review5.png";
 // import starts from "../../assets/images/five-stars.png"
 import user1 from "../../assets/images/photo1.jpg";
 import user2 from "../../assets/images/photo2.jpg";
 import user3 from "../../assets/images/photo3.jpg";
+import rating from "../../assets/images/five-stars.png";
 
 
 const Reviews = () => {
@@ -17,21 +18,21 @@ const Reviews = () => {
       image: user1,
       photo: review1,
       title: "Comfortable and Stylish",
-      text: "I absolutely love this chair! It's comfortable to sit in for long periods, and it adds a touch of style to my room. Highly recommended."
+      text: "I absolutely love this chair! It's comfortable to sit in for long periods, and it adds a touch of style to my room. "
     },
     {
       user: "Michael_Jones",
       image: user2,
       photo: review2,
       title: "Great Value for Money",
-      text: "For the price, this chair exceeded my expectations. It's sturdy, easy to assemble, and looks much more expensive than it actually is. Very satisfied with my purchase."
+      text: "For the price, this chair exceeded my expectations. It's sturdy, easy to assemble. "
     },
     {
       user: "Sarah_Smith",
       image: user3,
       photo: review3,
       title: "Perfect for Home Office",
-      text: "Bought this chair for my home office, and it's been fantastic. The ergonomic design provides excellent support, and the adjustable features make it easy to customize for comfort. Couldn't be happier."
+      text: "Bought this chair for my home office, and it's been fantastic. The ergonomic design provides excellent support."
     },
     // {
     //   user: "Emily_Wilson",
@@ -67,21 +68,23 @@ const Reviews = () => {
               alt={review.title} 
               className=" w-full h-full rounded-[18px]"
             />
-            <div className="bg-white absolute md:bottom-[98px] bottom-[60px] left-[5%] md:w-[300px] w-[180px] mx-[8px] md:h-[280px] rounded-[18px]">
-              <div className="absolute bg-white rounded-full w-[66px] h-[66px] top-[-60px] left-[50%] -translate-x-1/2 grid place-items-center">
+            <div className="bg-white absolute md:bottom-[98px] rounded-[18px] bottom-[60px] left-[5%] md:w-[324px] w-[180px] h-[260px] mx-[18px] md:h-[230px]">
+              <div className="absolute bg-white rounded-full w-[86px] h-[86px] top-[-50px] left-[50%] -translate-x-1/2 grid place-items-center">
                 <img 
                   src={review.image} 
                   alt="user" 
-                  className="rounded-full"
+                  className="w-[70px] h-[70px] rounded-full"
                   />
               </div>
-              <div className="w-full flex flex-col items-center justify-center mt-10 md:px-10 px-1">
+              <div className="w-full flex flex-col items-center justify-center mt-10 md:px-10 px-1 mb-[10px]">
                 <span className="font-bold text-[#1e1e1e] text-[18px]">{review.user}</span>
-                <span className="text-[#1e1e1e] text-[12px] mb-[22px] font-semicolon">{review.title}</span>
+                <span className="text-[#1e1e1e] text-[12px] mb-[22px] font-semibold">{review.title}</span>
                 <span className="text-center text-[#1e1e1e] text-[14px]">{review.text}</span>
+                <img src={rating} alt="Review-Rate" className="absolute bottom-[22px] md:w-[30%] w-[40%]" />
               </div>
             </div>
           </div>
+          
         ))}
       </div>
     </div>
