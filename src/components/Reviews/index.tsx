@@ -68,7 +68,7 @@ const Reviews = () => {
               alt={review.title} 
               className=" w-full h-full rounded-[18px]"
             />
-            <div className="bg-white absolute md:bottom-[98px] rounded-[18px] bottom-[60px] left-[5%] md:w-[324px] w-[180px] h-[260px] mx-[18px] md:h-[230px]">
+            <div className="bg-white absolute md:bottom-[300px] rounded-[18px] bottom-[60px] left-[5%] md:w-[324px] w-[180px] h-[260px] mx-[18px] md:h-[230px]">
               <div className="absolute bg-white rounded-full w-[86px] h-[86px] top-[-50px] left-[50%] -translate-x-1/2 grid place-items-center">
                 <img 
                   src={review.image} 
@@ -80,7 +80,7 @@ const Reviews = () => {
                 <span className="font-bold text-[#1e1e1e] text-[18px]">{review.user}</span>
                 <span className="text-[#1e1e1e] text-[12px] mb-[22px] font-semibold">{review.title}</span>
                 <span className="text-center text-[#1e1e1e] text-[14px]">{review.text}</span>
-                <img src={rating} alt="Review-Rate" className="absolute bottom-[22px] md:w-[30%] w-[40%]" />
+                <img src={rating} alt="Review-Rate" className="absolute bottom-[22px] md:w-[40%] w-[50%]" />
               </div>
             </div>
           </div>

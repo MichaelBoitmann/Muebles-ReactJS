@@ -4,6 +4,7 @@ import Products from "./components/Products";
 import Experiences from "./components/Experiences";
 import Materials from "./components/Materials";
 import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Experiences />
       <Materials />
       <Reviews />
+      <Footer />
     </div>
   )
 }
