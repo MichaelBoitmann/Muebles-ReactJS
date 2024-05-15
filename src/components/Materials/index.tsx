@@ -18,7 +18,7 @@ const Materials = () => {
           Well Selected Materials For Making Furniture
         </span>
         <p className="mt-5 max-w-[500px]">
-          Because Muebles was very serious about designing furniture for your environment, using a
+          Because <strong>Muebles</strong> was very serious about designing furniture for your environment, using a
           sophisticated and elegant parts, consumed by our professional designer at a relatively
           affordable prices.
         </p>

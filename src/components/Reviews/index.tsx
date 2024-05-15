@@ -52,7 +52,7 @@ const Reviews = () => {
   ]
 
   return (
-    <div className="flex w-full flex-col mb-[50px]">
+    <div className="flex w-full flex-col">
       <div className="flex flex-col gap-2 w-full items-center justify-center">
         <span className="font-medium text-[#e58411] text-[18px] uppercase">Testimonials</span>
         <span className="font-bold text-[#1e1e1e] text-[42px]">Our Client Reviews</span>
@@ -66,7 +66,7 @@ const Reviews = () => {
             <img 
               src={review.photo}
               alt={review.title} 
-              className=" w-full h-full rounded-[18px]"
+              className="md:w-fit w-full h-full rounded-[18px] "
             />
             <div className="bg-white absolute md:bottom-[300px] rounded-[18px] bottom-[60px] left-[5%] md:w-[324px] w-[180px] h-[260px] mx-[18px] md:h-[230px]">
               <div className="absolute bg-white rounded-full w-[86px] h-[86px] top-[-50px] left-[50%] -translate-x-1/2 grid place-items-center">
