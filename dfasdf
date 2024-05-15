@@ -1,0 +1,161 @@
+[33mcommit 6477d1f6193f8b1eb7bf287fe91593cc6b603f85[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Wed May 15 20:00:50 2024 +1200
+
+    added footer component
+
+[33mcommit dbbce68dab0c28e5cfab25d0ea3ac162957cec53[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Tue May 14 22:48:54 2024 +1200
+
+    completed reviews component
+
+[33mcommit 8a9126aa87d12a06bd821a88e4712de37cc71bc7[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Tue May 14 05:44:46 2024 +1200
+
+    created a client review component
+
+[33mcommit 3952f6b0333413d79c38d6df2c65641e076060e5[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Sat May 11 06:56:37 2024 +1200
+
+    add reviews components
+
+[33mcommit 306d20a7328c55295c13c81d1de9cc0c395c9ce2[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Sat May 11 05:52:25 2024 +1200
+
+    add folder images to be ignored
+
+[33mcommit 388fe577b2c84974c56de7d0471848a147715732[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Sat May 11 01:37:46 2024 +1200
+
+    added materials components
+
+[33mcommit 497f79732e95b3a4174a0b7c732a341e92584e75[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Fri May 10 23:58:11 2024 +1200
+
+    rearrange the experience
+
+[33mcommit f29278e329534b55962cf0947606096e1115ccf0[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Fri May 10 23:09:09 2024 +1200
+
+    reword statement and header
+
+[33mcommit 79d1f24f3898f6e2ad887f47514b18255def98b6[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Fri May 10 23:08:02 2024 +1200
+
+    created an experience background, header and statement
+
+[33mcommit 3ba4a6f39342e987c93fc4aac2a479b173b577fe[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Fri May 10 23:06:17 2024 +1200
+
+    added images, experiences components
+
+[33mcommit 65ef9fd2a1feffe3e27dbc30cd769c9a88402de5[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Fri May 10 19:45:10 2024 +1200
+
+    added rating and pricing
+
+[33mcommit c1e4418eb1edb1564c7e9d7c81a48fa5377baffe[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Thu May 9 23:30:42 2024 +1200
+
+    updated chair's names
+
+[33mcommit 205fce8cd4582f6d70c534fcd0fecb08d856efbb[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Thu May 9 23:21:47 2024 +1200
+
+    rendered chair photos, name and pricing
+
+[33mcommit 00931dca226cb5ca80c50d3baad4a465a50b894e[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Thu May 9 23:06:10 2024 +1200
+
+    added product component, 5x chairs imported
+
+[33mcommit 202f6069a9446123ad9d800702d2e320f7c260ec[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Thu May 9 22:39:20 2024 +1200
+
+    added Why section from App.tsx; added the arrow for each why section
+
+[33mcommit c8057101b3795b60fc8291205885286d8ab2a42a[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Thu May 9 22:13:23 2024 +1200
+
+    added why components that will handler the promotion section
+
+[33mcommit 48634ba6e71c395d03a9fafbf94a00bda1043821[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Thu May 9 21:38:42 2024 +1200
+
+    added bottom gradient white
+
+[33mcommit c8a9ec985c3878d6c0d58fee4bb3af911d77ff1f[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Wed May 8 23:59:26 2024 +1200
+
+    addedd the text for first page info
+
+[33mcommit 670126ebe0ead79a3417a5d176641ece21250e8d[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Wed May 8 23:54:47 2024 +1200
+
+    added another div for the hi-pitch of the website
+
+[33mcommit d103784fba6fb4184e3c7a220aa8ba8d44a6932c[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Wed May 8 23:43:55 2024 +1200
+
+    added cart/bag from navigation
+
+[33mcommit f162c7e6383562dfe4ab3055facd5fcb182a3201[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Wed May 8 23:29:07 2024 +1200
+
+    change the semantics of navigation bar from div to nav
+
+[33mcommit 16304cb1cb3601539a724dee8eb43f0f37ecc6b8[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Wed May 8 23:25:24 2024 +1200
+
+    created background looks and style
+
+[33mcommit 29a94e6b8fd6665bb9292e643b12e7788ddcf88f[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Tue May 7 23:56:53 2024 +1200
+
+    added some code at index.css and app.tsx
+
+[33mcommit 002bca32dd7ed27f027e147d431d122a0705e254[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Tue May 7 23:48:14 2024 +1200
+
+    added some CSS features and removed app.css file
+
+[33mcommit 0df9cb04ca9cc86323dd8a57508bd02b051566c6[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Tue May 7 23:30:46 2024 +1200
+
+    resetup tailwind css
+
+[33mcommit 583e2e722949099b91b47b1fef7195c89dc67553[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Tue May 7 23:21:53 2024 +1200
+
+    setup tailwind css
+
+[33mcommit c264c9cc0f2be77385b300e5664560f679525753[m
+Author: Michael <michael.boitmann@gmail.com>
+Date:   Tue May 7 23:13:03 2024 +1200
+
+    initial setup for the project

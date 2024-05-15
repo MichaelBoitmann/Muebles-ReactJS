@@ -21,7 +21,14 @@ const Footer = () => {
           <a href="#" className="font-medium text-[15px] mb-4 text-[#1e1e1e]">Twitter</a>
           <a href="#" className="font-medium text-[15px] mb-4 text-[#1e1e1e]">Instagram</a>
         </div>
-      </div>    
+      </div>
+      <div className="flex md:flex-row flex-col md:items-center justify-between w-full md:gap-0 gap-4 mt-[120px]">
+        <span className="opacity-70 text-[#1e2833] text-[15px]">Copyright © 2024</span>
+        <div className="flex items-center gap-[18px]">
+          <a href="#" className="font-medium text-[#1e1e1e]">Terms & Conditions</a>
+          <a href="#" className="font-medium text-[#1e1e1e]">Privacy Policy</a>
+        </div>
+      </div>  
     </div>
   )
 }
