@@ -12,6 +12,16 @@ html, body {
   padding: 0;
 }
 
+body {
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+html {
+  max-width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 @font-face {
   font-family: "Gilroy";
   font-style: normal;
