@@ -4,7 +4,7 @@ import bag from "../../assets/images/bag.png";
 const Header = () => {
   return (
     <div>
-      <div className="w-full md:h-[110vh] h-screen bg-cover relative bg-center md:px-[80px] px-8 py-[40px]" 
+      <div className="w-full md:h-[220vh] h-screen bg-cover relative bg-center md:px-[80px] px-8 py-[40px]" 
            style={{backgroundImage:`url(${bg})`}}>
         <div className="w-full flex items-center justify-between">
           <span className="text-white font-bold text-[28px] cursor-pointer">Muebles</span>
@@ -41,7 +41,7 @@ const Header = () => {
             Turn your room with Muebles into a lot more minimalist and modern with ease and speed.
           </p>
         </div>
-        <div className="w-full h-[80px] bg-gradient-to-t from-white to-transparent abolute left-0 mt-[12%]"></div>
+        <div className="w-full h-[80px] bg-gradient-to-t from-white to-transparent abolute left-0 mt-[72%]"></div>
       </div>
       
     </div>

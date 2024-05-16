@@ -57,7 +57,7 @@ const Reviews = () => {
         <span className="font-medium text-[#e58411] text-[18px] uppercase">Testimonials</span>
         <span className="font-bold text-[#1e1e1e] text-[42px]">Our Client Reviews</span>
       </div>
-      <div className="flex md:flex-row flex-col w-full items-center justify-between mt-[60px] px-[130px] gap-10">
+      <div className="flex md:flex-row flex-col w-full items-center justify-between mt-[60px] px-[10px] gap-10">
         {reviews.map((review) => (
           <div 
             className="relative"
