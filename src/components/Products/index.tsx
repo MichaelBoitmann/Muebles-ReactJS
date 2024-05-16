@@ -26,18 +26,18 @@ const Products = () => {
             <div className="grid place-items-center w-full bg-[@fafafa]">
               <img src={chair.image} alt={chair.title} />
             </div>
-            <div className="w-full px-[20px] pb-[27px] pt-4 flex flex-col">
+            <div className="w-full px-[20px] pb-[27px] pt-4 flex flex-col shadow-black">
               <span className="text-[#8d8d8d]">Chair</span>
               <span className="font-semibold text-[#0d1b39] text-[17px] my-[5px]">
                 {chair.title}
               </span>
               <img src={rating} alt="Product-Rate" className="w-[30%]" />
               <div className="w-full flex items-center justify-between mt-7">
-                <span className="font-semibold text-[22px] text-[#0d1b39]">
+                <span className="font-semibold text-[18px] text-[#0d1b39]">
                   $ {chair.price}
                 </span>
-                <div className="rounded-full grid place-items-center bg-[#0d1b39] w-[48px] h-[48px] cursor-pointer">
-                  <span className="text-white mt-[-1px] text-[35px]">+</span>
+                <div className="rounded-full grid place-items-center bg-[#0d1b39] w-[28px] h-[28px] cursor-pointer">
+                  <span className="text-white mt-[-4px] text-[25px]">+</span>
                 </div>
               </div>
             </div>
