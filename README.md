@@ -22,7 +22,7 @@
 
 ## 🚨 Learning Point
 
-This repository contains the code corresponding to an in-depth learning from  <a href="https://github.com/MichaelBoitmann/Dynato-ReactJS-TailwindCSS/tree/main" target="_blank"></a>. 
+This repository contains the code corresponding to an in-depth learning from  <a href="https://github.com/MichaelBoitmann/Muebles-ReactJS/tree/main" target="_blank"></a>. 
 
 Like learning this coding exercise by walking thru [Tailwind CSS](https://tailwindcss.com/blog/tailwindcss-v3-4) and [ReactJS](https://react.dev/blog/2023/03/16/introducing-react-dev) online documentation.
 
@@ -38,6 +38,8 @@ Join JSMastery @ Discord Apps
 
 - Tailwind CSS
 - React.JS
+- Vite
+- Typescript
 
 ## <a name="features">🔋 Features</a>
 
@@ -51,19 +53,19 @@ Join JSMastery @ Discord Apps
 
 👉 **JavaScript-like Tasks with Tailwind**: Discover how Tailwind CSS can be used to achieve tasks that typically require JavaScript code
 
-## While building a beautiful Nike Website with a,
+## While creating a simple furniture website a,
 
-👉 **Complex Hero Section**: A visually appealing hero section showcasing key elements.
+👉 **Complex Header Section**: A visually appealing hero section showcasing key elements.
 
-👉 **Popular Products Showcase**: A section highlighting popular Nike products
+👉 **WHy Choosing Us**: A section highlighting popular Nike products
 
 👉 **About Us Section**: An informative "About Us" section with a unique design.
 
-👉 **Special Offers**: Showcase special offers in an eye-catching manner
+👉 **Materials Section**: Showcase special offers in an eye-catching manner
 
-👉 **Testimonials**: A testimonials section for a captivating user experience
+👉 **Client Reviews**: A review section for a captivating user experience
 
-👉 **Newsletter Integration**: A newsletter section with Tailwind styling, encouraging user engagement
+👉 **Services**: A services section with Tailwind styling, encouraging user engagement
 
 👉 **Footer**: A comprehensive footer section containing various links
 
@@ -82,6 +84,8 @@ Make sure you have the following installed on your machine:
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
+- [Typescript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
 
 **Cloning the Repository**
 
