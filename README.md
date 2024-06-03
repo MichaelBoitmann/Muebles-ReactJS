@@ -146,154 +146,51 @@ module.exports = {
   env: { browser: true, es2020: true },
   extends: [
     'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:react/jsx-runtime',
+    'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
-  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
-  settings: { react: { version: '18.2' } },
+  parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
     ],
-    "react/prop-types": 0
   },
 }
+
 ```
 
 </details>
 
 <details>
-<summary><code>constants.index.js</code></summary>
+<summary><code>App.tsx</code></summary>
 
 ```javascript
-import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import Header from "./components/Header";
+import Why from "./components/Why";
+import Products from "./components/Products";
+import Experiences from "./components/Experiences";
+import Materials from "./components/Materials";
+import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 
-export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
-];
+const App = () => {
+  return (
+    <div className="w-full flex flex-col">
+      <Header />
+      <Why />
+      <Products />
+      <Experiences />
+      <Materials />
+      <Reviews />
+      <Footer />
+    </div>
+  )
+}
 
-export const shoes = [
-    {
-        thumbnail: thumbnailShoe1,
-        bigShoe: bigShoe1,
-    },
-    {
-        thumbnail: thumbnailShoe2,
-        bigShoe: bigShoe2,
-    },
-    {
-        thumbnail: thumbnailShoe3,
-        bigShoe: bigShoe3,
-    },
-];
-
-export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
-];
-
-export const products = [
-    {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
-    },
-    {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
-    },
-    {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
-    },
-    {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
-    },
-];
-
-export const services = [
-    {
-        imgURL: truckFast,
-        label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
-    },
-    {
-        imgURL: shieldTick,
-        label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
-    },
-    {
-        imgURL: support,
-        label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
-    },
-];
-
-export const reviews = [
-    {
-        imgURL: customer1,
-        customerName: 'Morich Brown',
-        rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
-    },
-    {
-        imgURL: customer2,
-        customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
-    }
-];
-
-
-export const footerLinks = [
-    {
-        title: "Products",
-        links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
-        ],
-    },
-    {
-        title: "Help",
-        links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
-        ],
-    },
-    {
-        title: "Get in touch",
-        links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
-        ],
-    },
-];
-
-export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
-];
+export default App
 ```
 
 </details>
@@ -302,63 +199,83 @@ export const socialMedia = [
 <summary><code>index.css</code></summary>
 
 ```css
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-* {
+html, body {
+  font-family: "Gilroy", sans-serif;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: white;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
-@layer components {
-  .max-container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-
-  .input {
-    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
-  }
+body {
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-@layer utilities {
-  .padding {
-    @apply sm:px-16 px-8 sm:py-24 py-12;
-  }
+html {
+  max-width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
 
-  .padding-x {
-    @apply sm:px-16 px-8;
-  }
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  src: url(".assets/fonts/Gilroy-Regular.ttf")
+}
 
-  .padding-y {
-    @apply sm:py-24 py-12;
-  }
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  src: url(".assets/fonts/Gilroy-Regular.ttf")
+}
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  src: url(".assets/fonts/Gilroy-Regular.ttf")
+}
 
-  .padding-l {
-    @apply sm:pl-16 pl-8;
-  }
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(".assets/fonts/Gilroy-Medium.ttf")
+}
 
-  .padding-r {
-    @apply sm:pr-16 pr-8;
-  }
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  src: url(".assets/fonts/Gilroy-SemiBold.ttf")
+}
 
-  .padding-t {
-    @apply sm:pt-24 pt-12;
-  }
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  src: url(".assets/fonts/Gilroy-Bold.ttf")
+}
 
-  .padding-b {
-    @apply sm:pb-24 pb-12;
-  }
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  src: url(".assets/fonts/Gilroy-ExtraBold.ttf")
+}
 
-  .info-text {
-    @apply font-montserrat text-slate-gray text-lg leading-7;
-  }
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 900;
+  src: url(".assets/fonts/Gilroy-Black.ttf")
 }
 ```
 
