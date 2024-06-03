@@ -18,11 +18,11 @@ const Products = () => {
   ]
 
   return (
-    <div className="w-full bg-[#f7f7f7] py-[50px] md:px-[120px] px-[40px} flex flex-col items-center justify-center">
+    <div className="w-full bg-[#f7f7f7] py-[50px]md:px-[120px] p-[50px] px-[40px} flex flex-col items-center justify-center">
       <span className="font-bold text-[42px] text-[#1e1e1e]">Best Selling Products</span>
       <div className="w-full flex md:flex-row flex-col items-center justify-between mt-10 gap-10">
         {chairs.map((chair) => (
-          <div key={chair.title} className="bg-white w-full rounded-[20px] flex flex-col items-center justify-center">
+          <div key={chair.title} className="bg-white w-full border-2 rounded-[20px] flex flex-col items-center justify-center">
             <div className="grid place-items-center w-full bg-[@fafafa]">
               <img src={chair.image} alt={chair.title} />
             </div>

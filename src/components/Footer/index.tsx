@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
-    <div className="w-full bg-[#f7f7f7] pt-[120px] md:px-[190px] px-20 pb-[56px] mt-[120px]">
+    <div className="w-full bg-[#f7f7f7] pt-[50px] md:px-[190px] px-20 pb-[56px] mt-[50px]">
       <div className="w-full flex md:flex-row flex-col md:items-center justify-between md:gap-0 gap-8">
         <div className="flex flex-col gap-7">
           <span className="font-bold text-[1e1e1e] text-[28px]">Muebles</span>
-          <p className="font-mediu text-[15px] max-w-[300px] text-[#1e1e1e]">
+          <p className="font-medium text-[15px] max-w-[300px] text-[#1e1e1e]">
             The advantage of hiring a workspace with us is that gives you comfortable service
             and all-around facilities.
           </p>
@@ -23,10 +23,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex md:flex-row flex-col md:items-center justify-between w-full md:gap-0 gap-4 mt-[120px]">
-        <span className="opacity-70 text-[#1e2833] text-[15px]">Copyright © 2024</span>
-        <div className="flex items-center gap-[18px]">
-          <a href="#" className="font-medium text-[#1e1e1e]">Terms & Conditions</a>
-          <a href="#" className="font-medium text-[#1e1e1e]">Privacy Policy</a>
+        <span className="opacity-70 text-[#1e2833] text-[10px]">Copyright © 2024</span>
+        <div className="flex text-[10px] items-center gap-[18px]">
+          <a href="#" className="text-[#acacac]">Terms & Conditions</a>
+          <a href="#" className="text-[#acacac]">Privacy Policy</a>
         </div>
       </div>  
     </div>

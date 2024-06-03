@@ -52,12 +52,12 @@ const Reviews = () => {
   ]
 
   return (
-    <div className="flex w-full flex-col">
+    <div className="flex w-full flex-col rounded">
       <div className="flex flex-col gap-2 w-full items-center justify-center">
         <span className="font-medium text-[#e58411] text-[18px] uppercase">Testimonials</span>
         <span className="font-bold text-[#1e1e1e] text-[42px]">Our Client Reviews</span>
       </div>
-      <div className="flex md:flex-row flex-col w-full items-center justify-between mt-[60px] px-[10px] gap-10">
+      <div className="flex md:flex-row flex-col w-full items-center p-[50px] justify-between mt-[60px] px-[10px] gap-10">
         {reviews.map((review) => (
           <div 
             className="relative"
@@ -84,7 +84,6 @@ const Reviews = () => {
               </div>
             </div>
           </div>
-          
         ))}
       </div>
     </div>
