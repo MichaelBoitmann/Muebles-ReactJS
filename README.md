@@ -90,7 +90,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/MichaelBoitmann/Dynato-ReactJS-TailwindCSS.git
+git clone https://github.com/MichaelBoitmann/Muebles-ReactJS.git
 cd dynato
 ```
 
@@ -123,7 +123,7 @@ npm install
 npm start
 ```
 
-🎨 ##My VS Code Theme And Extensions : 
+## <a name="vscode-theme">🎨 My VS Code Theme And Extensions :</a> 
 - Auto Import
 - Glasslt-VSC
 - Material Icon theme
