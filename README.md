@@ -109,6 +109,21 @@ npm install
 npm start
 ```
 
+##🎨 My VS Code Theme And Extensions : 
+- ##Auto Import
+- ##Glasslt-VSC
+- ##Material Icon theme
+- ##Simple React Snippets
+- ##One Dark Palenight
+- ##Prettier Code Formatter
+- ##Tailwind CSS IntelliSense
+
+Commands to initial setup
+
+- npm create vite@latest
+- yarn add tailwindcss autoprefixer postcss
+- npx tailwindcss init -p
+
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
 ## <a name="snippets">🕸️ Snippets</a>
