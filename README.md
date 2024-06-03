@@ -2,7 +2,7 @@
 
 <div align="center">
   <br />
-  <img src="./src/git_image/main_readme.png" />
+  <img src="./src/git_image/git_image.png" />
   <h3 align="center">ReactJS - TailwindCSS - Vite - TypeScript</h3>
   <div align="center">
 
