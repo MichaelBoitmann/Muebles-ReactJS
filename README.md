@@ -16,6 +16,7 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
+5. 🎨 [VSCode Snippets](#vscode-theme)
 5. 🕸️ [Snippets](#snippets)
 6. 🔗 [Links](#links)
 7. 🚀 [Future Upgrade](#future-upgrade)
@@ -36,8 +37,8 @@ Join JSMastery @ Discord Apps
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Tailwind CSS
 - React.JS
+- Tailwind CSS
 - Vite
 - Typescript
 
@@ -123,7 +124,7 @@ npm install
 npm start
 ```
 
-## <a name="vscode-theme">🎨 My VS Code Theme And Extensions :</a> 
+## <a name="vscode-theme">🎨 VSCode Theme And Extensions :</a> 
 - Auto Import
 - Glasslt-VSC
 - Material Icon theme
@@ -278,30 +279,6 @@ html {
   src: url(".assets/fonts/Gilroy-Black.ttf")
 }
 ```
-
-</details>
-
-<details>
-<summary><code>script.js</code></summary>
-
-```javascript
-// To showcase the demo of dark theme. Copy paste :)
-<script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", () => {
-    const toggleDark = document.getElementById('toggleDark')
-    toggleDark.addEventListener('click', function() {
-      if(document.documentElement.classList.includes('dark')) {
-        document.documentElement.classList.remove('dark')
-      }
-      else {
-        document.documentElement.classList.add('dark')
-      }
-      alert("click!")
-    });
-  });
-</script>
-```
-
 </details>
 
 <details>
