@@ -1,14 +1,10 @@
-# React + TypeScript + Vite
+<h1> React + TailwindCSS + TypeScript + Vite </h1>
 
 <div align="center">
   <br />
-  <a href="https://michaelboitmann.github.io/Muebles-ReactJS/">
+  <a href="https://michaelboitmann.github.io/Muebles-ReactJS/" target="_blank">
     <img src="./src/git_image/git_image.png" />
   </a>
-  <h3 align="center">ReactJS - TailwindCSS - Vite - TypeScript</h3>
-  <div align="center">
-
-  </div>
 </div>
 
 
